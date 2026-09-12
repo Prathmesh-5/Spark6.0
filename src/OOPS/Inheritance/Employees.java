@@ -20,7 +20,7 @@ class Developer extends Employees{
 class Manager extends Employees{
     int teamSize;
 
-    Manager(int c){
+    Manager(){
         System.out.println("manager constructor is called");
     }
 }
