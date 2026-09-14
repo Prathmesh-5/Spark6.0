@@ -6,7 +6,7 @@ public class TestOverview {
         int b=0;
 
         System.out.println("addition = "+(a+b));
-        System.out.println("division = "+(a/b));
+        System.out.println("division = "+(a/b)); // exception (abnormal termination)
 
     }
 }
