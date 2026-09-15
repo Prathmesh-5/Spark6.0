@@ -1,0 +1,8 @@
+Program 5: File Reader
+Create a program to open file:
+student.txt
+
+Requirements:
+Use FileReader
+Handle FileNotFoundException
+Print meaningful message if file does not exist
