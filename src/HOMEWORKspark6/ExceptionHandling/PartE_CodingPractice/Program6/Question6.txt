@@ -1,0 +1,7 @@
+Program 6: File Reader With Finally
+Create a program using FileReader
+Requirements:
+Declare FileReader reader = null
+Open file inside try.
+Close file inside finally.
+Handle IOException while closing
