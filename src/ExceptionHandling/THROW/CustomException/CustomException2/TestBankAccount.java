@@ -10,12 +10,9 @@ public class TestBankAccount {
         System.out.println("Enter how much money you want to withdraw : ");
         double amount=sc.nextDouble();
 
-        try{
-            b1.withdraw(amount);
-        }
-        catch(InsufficientBalanceException e){
-            System.out.println(e.getMessage());
-        }
+        b1.withdraw(amount);
+
+        sc.close();
 
     }
 }

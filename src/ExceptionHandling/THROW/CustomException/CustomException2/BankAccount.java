@@ -5,10 +5,17 @@ public class BankAccount {
 
     void withdraw(double amount){ // paise nikalna hai
         if(amount>currBalance){
-            throw new InsufficientBalanceException("Sorry you have insuffienct balance !");
+            try{
+                throw new InsufficientBalanceException("Sorry you have insuffienct balance !");
+            }
+            catch(InsufficientBalanceException e){
+                System.out.println(e.getMessage());
+            }
         }
-        currBalance-=amount;
-        System.out.println("Thanks for withdrawing and now your available balance is : "+currBalance);
+        else {
+            currBalance -= amount;
+            System.out.println("Thanks for withdrawing and now your available balance is : " + currBalance);
+        }
     }
 
 }
