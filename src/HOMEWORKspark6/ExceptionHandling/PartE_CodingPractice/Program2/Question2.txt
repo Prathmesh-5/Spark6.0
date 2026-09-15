@@ -1,0 +1,7 @@
+Program 2: Array Index Handler
+Create an integer array of 5 values.
+Try to print an index entered by user.
+Requirements:
+Handle ArrayIndexOutOfBoundsException .
+Handle InputMismatchException .
+Close Scanner in finally .
