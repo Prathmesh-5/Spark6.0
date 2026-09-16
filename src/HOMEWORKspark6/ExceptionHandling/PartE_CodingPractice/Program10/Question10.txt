@@ -1,0 +1,11 @@
+Program 10: Custom Checked Exception
+Create custom exception:
+InsufficientBalanceException extends Exception
+Create class BankAccount with:
+balance
+constructor
+withdraw(double amount) throws InsufficientBalanceException
+Rules:
+If amount is greater than balance, throw custom exception.
+Otherwise deduct balance and print remaining balance.
+Handle exception in main method.

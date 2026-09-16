@@ -1,0 +1,9 @@
+Program 7: Age Validation Using throw
+Create class VoterService .
+Method:
+void checkAge(int age)
+Rules:
+If age is less than 18, throw IllegalArgumentException .
+Genie Ashwani
+Otherwise print "Allowed to vote" .
+Handle exception in main method.

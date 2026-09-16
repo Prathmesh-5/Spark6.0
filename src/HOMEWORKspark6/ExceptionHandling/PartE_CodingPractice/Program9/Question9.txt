@@ -1,0 +1,9 @@
+Program 9: Custom Unchecked Exception
+Create custom exception:
+ProductNotFoundException extends RuntimeException
+Create class ProductService with method:
+void findProduct(int productId)
+Rules:
+If product id is not 101 , throw ProductNotFoundException .
+Otherwise print "Product found" .
+Handle exception in main method.
