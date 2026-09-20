@@ -5,7 +5,7 @@ interface Car{
 
     // static wala (implementation wale class ke liye ye invisible hai)
     public static void wheel(){
-        System.out.println("This is wheel");
+        System.out.println("This is static  wheel");
     }
 
     // default wala
@@ -21,7 +21,7 @@ class bmw implements Car{
     }
 
     public void wheel(){     // ye ek naya alag method hai koi bhi override nahi hua hai (isko to uper wlaa dikh hi nahi raha hai)
-        System.out.println("This is bmw wheel");
+        System.out.println("This is normal bmw wheel");
     }
 
 }
